@@ -24,12 +24,12 @@ const Index = props => {
 	} = data;
 	return (
 		<div>
-			{edges.map(({ node }) => {
+			{edges.map(({ node }, i) => {
 				return (
-					<>
+					<div key={i}>
 						<h1>{node.frontmatter.title}</h1>
 						<p>{node.frontmatter.description}</p>
-					</>
+					</div>
 				);
 			})}
 		</div>
