@@ -10,7 +10,7 @@
 		"theme": "1.0.0"
 	},
 	"scripts": {
-		"develop": "gatsby develop",
+		"develop": "gatsby develop -o",
 		"build": "gatsby build"
 	}
 }

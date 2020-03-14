@@ -13,11 +13,12 @@ exports.onPreBootstrap = () => {
 exports.createPages = async ({ actions, graphql }) => {
 	const result = await graphql(`
 		query {
-			allMdx {
+			allMdx(filter: { fileAbsolutePath: { regex: "/data/" } }) {
 				edges {
 					node {
 						id
 						frontmatter {
+							slug
 							title
 						}
 					}
@@ -31,7 +32,7 @@ exports.createPages = async ({ actions, graphql }) => {
 
 	edges.forEach(({ node }) => {
 		actions.createPage({
-			path: `${node.frontmatter.title}`,
+			path: `${node.frontmatter.slug}`,
 			component: path.resolve(__dirname, `./src/templates/Post.js`),
 			context: {
 				postID: node.id
