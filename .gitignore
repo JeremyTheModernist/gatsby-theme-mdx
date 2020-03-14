@@ -5,3 +5,7 @@ packages/theme/node_modules
 site/node_modules
 
 node_modules/
+
+# gatsby files
+.cache/
+public
