@@ -44,7 +44,7 @@ If you have any thoughts or would like to show me what you build please hit me u
 
 ## Customize the Content
 
-If you would like to, you can add any posts and even update the the name of the site in this repo. Allowing you to create your very own blog from it.
+If you would like to, you can add any posts and even update the the name of the site in this repo. This allows you to create your very own blog from it.
 
 #### Change the Title, Description, or Social Links:
 
