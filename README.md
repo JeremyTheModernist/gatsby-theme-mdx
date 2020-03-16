@@ -22,6 +22,12 @@ _If you have built a few sites with Gatsby, and understand their basic paradigms
 After you clone this repository, open the project in your code editor. Make sure you are in the root directory, and run:
 <br/>
 <br/>
+`yarn install`
+<br/>
+<br/>
+next run:
+<br/>
+<br/>
 `yarn workspace site develop`
 <br/>
 <br/>
