@@ -3,6 +3,7 @@ node_modules
 packages/theme/node_modules
 
 site/node_modules
+packages/theme/gatsby-node-2.js
 
 node_modules/
 
