@@ -6,7 +6,7 @@ _This repository is the source code for my tutorial on how to build a Gatsby The
 
 -   [Gatsby-Theme-MDX Tutorial Article](https://www.dropbox.com/scl/fi/lkojk0wmciw9lcjfhmnn1/Build-a-Gatsby-Theme-with-MDX-and-Theme-UI.paper?dl=0&rlkey=xc2lf0w8vc0t7xa4svn40q7m8)
 -   [View the Live Site](https://confident-lamport-d5be78.netlify.com/)
--   [Build a Gatsby Theme Article](https://www.gatsbyjs.org/tutorial/building-a-theme/e)
+-   [Build a Gatsby Theme Article](https://www.gatsbyjs.org/tutorial/building-a-theme/)
 -   [Theme UI Docs](https://theme-ui.com/)
 
 ![Home Page](./README_imgs/HomePage.png)
