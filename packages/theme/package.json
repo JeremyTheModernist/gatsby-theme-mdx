@@ -19,7 +19,7 @@
 		"gatsby-image": "^2.2.43",
 		"gatsby-plugin-layout": "^1.1.23",
 		"gatsby-plugin-mdx": "^1.0.75",
-		"gatsby-plugin-sharp": "^2.4.7",
+		"gatsby-plugin-sharp": "^4.25.1",
 		"gatsby-plugin-theme-ui": "^0.3.0",
 		"gatsby-source-filesystem": "^2.1.48",
 		"gatsby-transformer-sharp": "^2.3.17",
